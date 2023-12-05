@@ -4,10 +4,10 @@ function toggleDescription() {
 
     if (description.style.display === "none" || description.style.display === "") {
         description.style.display = "block";
-        showMoreText.textContent = "Show Less";
+        showMoreText.textContent = "Show Less ↑";
     } else {
         description.style.display = "none";
-        showMoreText.textContent = "Show More";
+        showMoreText.textContent = "Show More ↓";
     }
 }
 

@@ -1,13 +1,16 @@
-.Nav{
-    display:flex;
-    /* align-content: space-between; */
-    justify-content: space-around;
-    align-items: center;
-    font-weight: lighter;
-    font-size:16px;
-
-    /* border:1px solid red; */
+.Nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 16px;
+  position: fixed; 
+  top: 0;
+  width: 100%; 
+  background-color: #fff; 
+  z-index: 1000; 
 }
+
 .Nav>div{
     /* border:1px solid blue; */
 }
@@ -69,6 +72,9 @@
     /* border: 1px solid red; */
     /* width: 30px; */
     text-align: center;
+}
+.mobileICON{
+  display: none;
 }
 .Service{
     display:flex;
@@ -165,6 +171,7 @@
     color:#00A8B6;
     background-color:white ;
     cursor: pointer;
+    outline: none;
   }
 
   /* Your existing CSS */
@@ -172,9 +179,15 @@
 /* Responsive CSS using media queries */
 @media screen and (max-width: 768px) {
     .Nav {
-      flex-direction: column;
+      flex-direction: row;
       align-items: stretch;
       margin: 0;
+      position: fixed; 
+      top: 0;
+      width: 97%; 
+      background-color: #fff; 
+      z-index: 1000;
+      margin-bottom: 15px;
     }
   
     .Nav>div {
@@ -186,10 +199,12 @@
       display: none;
     }
     .logo>img{
-        width: 35%;
+        margin-top: 7px;
+        width: 65%;
         cursor: pointer;
     
     }
+    
     .Service{
         display: none;
     }
@@ -246,9 +261,25 @@
     margin: 0px;
     margin-top: 10px;
 }
-#showBTNMobile {
+/* #showBTNMobile {
     display: block;
     margin: 10px auto;
+} */
+.mobileICON{
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  background-color: white;
+  /* border: 1px solid red; */
+}
+.mobileICON>img{
+  width: 21%;
+  cursor: pointer;
+  margin-top: 7px;
+}
+.mobileICON>:nth-child(4){
+  width:19%;
+  /* border: 1px solid red; */
 }
 .positin-abs{
     display: none;
@@ -257,8 +288,11 @@
   #showBTN{
     border: none;
     color:#00A8B6;
-    background-color:white ;
     cursor: pointer;
+    outline: none;
+    margin-left: 100px ;
+    margin-bottom: 10px;
+
   }
   
     #description {
