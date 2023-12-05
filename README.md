@@ -1,26 +1,28 @@
-<h1>Armenia Tours</h1>
+<h1>Home-Test-Travelopia-Round-1</h1>
 
-<p>Welcome to Armenia Tours - an immersive journey into the heart of a mountainous wonderland and the ancient cradle of Christianity.</p>
 
-<h2>Overview</h2>
+# Show More / Show Less Functionality
 
-<p>Armenia Tours invites you to explore the cultural and natural marvels of this former Soviet Republic in West Asia. With a history steeped in being one of the earliest Christian nations, Armenia boasts a rich tapestry of landscapes, heritage sites, and vibrant city life.</p>
+This project implements a simple "Show More" and "Show Less" feature using JavaScript to toggle content visibility on a web page.
 
-<h2>Features</h2>
+## Installation
 
-<ul>
-  <li><strong>Cultural Odyssey:</strong> Embark on a diverse range of adventure, activity, and walking holidays amidst a land adorned with centuries-old history and traditions.</li>
-  <li><strong>Historic Marvels:</strong> Visit pagan sites and UNESCO World Heritage-listed churches, perched in breathtaking locations, surrounded by forests or nestled atop dramatic gorges.</li>
-  <li><strong>Nature's Bounty:</strong> Discover Armenia's picturesque countryside, showcasing majestic mountains, serene lakes, and cascading waterfalls amidst a plethora of trees and wildflowers.</li>
-  <li><strong>Yerevan Delights:</strong> Immerse yourself in the bustling cafes, restaurants, and evolving economy of Yerevan, the capital city set against the backdrop of the iconic Mount Ararat.</li>
-</ul>
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/show-more-show-less.git
 
-<h2>Contact Information</h2>
+ ## Tech Stack
+    HTML
+    CSS
+    JavaScript
 
-<p>For booking inquiries and further details, please reach out to us at:</p>
-<ul>
-  <li><strong>Phone:</strong> 02031317004</li>
-  <li><strong>Website:</strong> <a href="https://www.exodus.co.uk/destinations/europe-holidays/armenia-holidays">Armenia Tours - Exodus Travels</a></li>
-</ul>
+ ## Folder Structure
+    Style
+      index.CSS
 
-<p>Explore Armenia Tours and unravel the beauty, history, and cultural treasures of this enchanting nation!</p>
+    index.html
+
+    Script
+      index.js
+
+
